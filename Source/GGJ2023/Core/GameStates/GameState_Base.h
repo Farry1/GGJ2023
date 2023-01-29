@@ -33,10 +33,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Cancel();
 
+	virtual UWorld* GetWorld() const override;
 
-protected:
-	UPROPERTY(BlueprintReadOnly, meta=(ExposeOnSpawn))
-	APlayerController* PlayerController = nullptr;
+protected:	
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPrimaryAction();

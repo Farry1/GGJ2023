@@ -32,3 +32,17 @@ void UGameState_Base::Cancel()
 {
 	OnCancel();
 }
+
+UWorld* UGameState_Base::GetWorld() const
+{
+	if (!HasAnyFlags(RF_ClassDefaultObject) && !GetOuter()->HasAnyFlags(RF_BeginDestroyed) && !GetOuter()->
+		IsUnreachable())
+	{
+		AActor* Outer = GetTypedOuter<AActor>();
+		if (Outer != nullptr)
+		{
+			return Outer->GetWorld();
+		}
+	}
+	return nullptr;
+}

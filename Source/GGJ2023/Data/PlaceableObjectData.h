@@ -14,6 +14,7 @@ class GGJ2023_API UPlaceableObjectData : public UDataAsset
 {
 	GENERATED_BODY()
 
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FText DisplayName;
 

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "PlacementRule.h"
 #include "UObject/Object.h"
 #include "PlaceableObjectData.generated.h"
 
@@ -22,5 +23,11 @@ public:
 	UTexture2D* DisplayIcon;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UTexture2D* RootTypeIcon;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<AActor> BuildableClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FText RuleText;
 };

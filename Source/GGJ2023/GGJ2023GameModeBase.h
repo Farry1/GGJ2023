@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Grid/Grid.h"
 #include "GGJ2023GameModeBase.generated.h"
 
 /**
@@ -13,5 +14,8 @@ UCLASS()
 class GGJ2023_API AGGJ2023GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	static AGrid* GetGridInstance(UObject* WorldContext);
 };

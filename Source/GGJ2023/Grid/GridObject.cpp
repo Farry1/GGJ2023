@@ -41,9 +41,15 @@ bool AGridObject::CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& 
 		{
 			continue;
 		}
+
 		InvalidTiles.Add(Point);
 	}
 
+	if (ValidTiles.Num() == 0)
+	{
+		InvalidTiles = GetOccupyingCells();
+		ValidRulesCount = -1;
+	}
 
 	return ValidRulesCount == GridObjectData->PlacementRules.Num();
 }

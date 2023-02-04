@@ -8,12 +8,12 @@
 
 TArray<FIntPoint> AGridObject::GetOccupyingCells_Implementation()
 {
-	return {-1, -1};
+	return {-1000, -1000};
 }
 
 TArray<FIntPoint> AGridObject::GetNeighbouringCells_Implementation()
 {
-	return {-1, -1};
+	return {-1000, -1000};
 }
 
 void AGridObject::AddToGrid()

@@ -38,8 +38,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FText RuleText;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TEnumAsByte<EGridObjectGroup> GridObjectType;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TEnumAsByte<EGridObjectGroup>> MyGridObjectGroups;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TArray<TSubclassOf<UPlacementRuleConfig>> PlacementRules;

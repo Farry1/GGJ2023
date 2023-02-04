@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GridObjectData.h"
 #include "Engine/DataTable.h"
 #include "UObject/Object.h"
 #include "ProgressionTierData.generated.h"
@@ -21,4 +22,10 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int32 PointsNeeded;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<UGridObjectData*> GuaranteedCards;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<UGridObjectData*> PossibleCards;
 };

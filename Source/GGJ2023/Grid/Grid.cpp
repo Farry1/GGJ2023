@@ -29,6 +29,21 @@ FVector AGrid::GetWorldPosition_Implementation(FIntPoint GridCoordinates)
 	return {X, Y, 0.0f};
 }
 
+TArray<AGridObject*> AGrid::GetAllGridObjects()
+{
+	TArray<AGridObject*> Result;
+
+	for (auto Cell : Cells)
+	{
+		for (AGridObject* GridObject : Cell.Value.GridObjects)
+		{
+			Result.AddUnique(GridObject);
+		}
+	}
+
+	return Result;
+}
+
 TArray<AGridObject*> AGrid::GetGridActorsAt(FIntPoint GridCoordinates)
 {
 	if (!IsValidIndex(GridCoordinates))

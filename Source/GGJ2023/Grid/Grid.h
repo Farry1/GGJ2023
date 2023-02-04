@@ -37,6 +37,9 @@ public:
 	FVector GetWorldPosition(FIntPoint GridCoordinates);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
+	TArray<AGridObject*> GetAllGridObjects();
+
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	TArray<AGridObject*> GetGridActorsAt(FIntPoint GridCoordinates);
 
 	UFUNCTION(BlueprintCallable)

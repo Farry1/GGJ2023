@@ -29,7 +29,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	bool CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles, TArray<FIntPoint>& ValidNeighbourTiles);
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UGridObjectData* GridObjectData;
 

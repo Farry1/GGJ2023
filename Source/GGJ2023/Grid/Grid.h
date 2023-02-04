@@ -12,7 +12,7 @@
  * 
  */
 
-const float GLOBAL_GRID_SCALE = 100.0f;
+const float GLOBAL_GRID_SCALE = 50.0f;
 
 UCLASS(BlueprintType, Blueprintable)
 class GGJ2023_API AGrid : public AActor
@@ -20,10 +20,10 @@ class GGJ2023_API AGrid : public AActor
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
 	FIntPoint GetGridPosition(FVector WorldPosition);
 
-	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
 	FVector GetWorldPosition(FIntPoint GridCoordinates);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)

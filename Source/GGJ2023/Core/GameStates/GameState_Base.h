@@ -31,17 +31,28 @@ public:
 	void SecondaryAction();
 
 	UFUNCTION(BlueprintCallable)
+	void RotateLeftAction();
+
+	UFUNCTION(BlueprintCallable)
+	void RotateRightAction();
+
+	UFUNCTION(BlueprintCallable)
 	void Cancel();
 
 	virtual UWorld* GetWorld() const override;
 
-protected:	
-
+protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPrimaryAction();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnSecondaryAction();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnRotateLeftAction();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnRotateRightAction();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnCancel();

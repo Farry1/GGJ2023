@@ -28,6 +28,16 @@ void UGameState_Base::SecondaryAction()
 	OnSecondaryAction();
 }
 
+void UGameState_Base::RotateLeftAction()
+{
+	OnRotateLeftAction();
+}
+
+void UGameState_Base::RotateRightAction()
+{
+	OnRotateRightAction();
+}
+
 void UGameState_Base::Cancel()
 {
 	OnCancel();

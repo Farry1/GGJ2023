@@ -6,6 +6,6 @@
 /NAME:"UnrealEditor-RiderShaderInfoDump.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\RiderShaderInfoDump.cpp.obj"
-"D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\Default.rc2.res"
-/OUT:"D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\UnrealEditor-RiderShaderInfoDump.lib"
+"D:\Projekte\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\RiderShaderInfoDump.cpp.obj"
+"D:\Projekte\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\Default.rc2.res"
+/OUT:"D:\Projekte\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfoDump\UnrealEditor-RiderShaderInfoDump.lib"

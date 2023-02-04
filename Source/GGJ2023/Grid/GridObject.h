@@ -15,7 +15,7 @@ class GGJ2023_API AGridObject : public AActor
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	TArray<FIntPoint> GetOccupyingCells();
 
 	UFUNCTION(BlueprintCallable)

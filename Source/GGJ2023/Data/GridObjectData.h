@@ -42,7 +42,7 @@ public:
 	int BaseScore = 10;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int StackSize = 1;
+	TMap<TEnumAsByte<EGridObjectGroup>, int> GroupAndCount;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TEnumAsByte<EGridObjectGroup>> MyGridObjectGroups;

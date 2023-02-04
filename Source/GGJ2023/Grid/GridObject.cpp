@@ -11,6 +11,11 @@ TArray<FIntPoint> AGridObject::GetOccupyingCells_Implementation()
 	return {-1, -1};
 }
 
+TArray<FIntPoint> AGridObject::GetNeighbouringCells_Implementation()
+{
+	return {-1, -1};
+}
+
 void AGridObject::AddToGrid()
 {
 	UStaticHelpers::GetGridInstance(this)->AddGridObject(this);
@@ -20,16 +25,16 @@ void AGridObject::RemoveFromGrid()
 {
 }
 
-bool AGridObject::CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles)
+bool AGridObject::CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles, TArray<FIntPoint>& ValidNeighbourTiles)
 {
 	ValidTiles = GetOccupyingCells();
-	TArray<FIntPoint> AdditionalTiles = {};
+	ValidNeighbourTiles = GetNeighbouringCells();
 
 	int ValidRulesCount = 0;
 	for (TSubclassOf<UPlacementRuleConfig> PlacementRuleConfig : GridObjectData->PlacementRules)
 	{
 		UPlacementRuleConfig* CurrentRule = Cast<UPlacementRuleConfig>(PlacementRuleConfig->GetDefaultObject(true));
-		if (CurrentRule->CanBePlaced(this, ValidTiles, AdditionalTiles))
+		if (CurrentRule->CanBePlaced(this, ValidTiles, ValidNeighbourTiles))
 		{
 			ValidRulesCount++;
 		}

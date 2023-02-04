@@ -16,13 +16,13 @@ class GGJ2023_API UPlacementRuleConfig : public UObject
 
 public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool CanBePlaced(const UObject* WorldContext, TArray<FIntPoint>& ValidTilesOut, TArray<FIntPoint>& AdditionalTilesOut);
+	bool CanBePlaced(const UObject* WorldContext, TArray<FIntPoint>& ValidTilesOut, TArray<FIntPoint>& ValidNeigbouringTiles);
 
 protected:
 	virtual UWorld* GetWorld() const override;
 
 	UFUNCTION(BlueprintNativeEvent)
-	bool GetValidTilesFromArea(UPARAM(ref) TArray<FIntPoint>& ValidTilesOut, UPARAM(ref) TArray<FIntPoint>& AdditionalTilesOut, AGrid* GridInstance);
+	bool GetValidTilesFromArea(UPARAM(ref) TArray<FIntPoint>& ValidTilesOut, UPARAM(ref) TArray<FIntPoint>& ValidNeighbouringTiles, AGrid* GridInstance);
 
 	UPROPERTY()
 	UWorld* TemporaryWorld;

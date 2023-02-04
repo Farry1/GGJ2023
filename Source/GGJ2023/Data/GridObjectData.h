@@ -6,6 +6,14 @@
 #include "GGJ2023/PlacementRules/PlacementRuleConfig.h"
 #include "GridObjectData.generated.h"
 
+UENUM(BlueprintType)
+enum EGridObjectGroup
+{
+	Round UMETA(DisplayName = "Round"),
+	Triangle UMETA(DisplayName = "Triangle"),
+	Rectangle UMETA(DisplayName = "Rectangle"),
+};
+
 /**
  * 
  */
@@ -29,6 +37,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FText RuleText;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<EGridObjectGroup> GridObjectType;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TArray<TSubclassOf<UPlacementRuleConfig>> PlacementRules;

@@ -18,6 +18,9 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	TArray<FIntPoint> GetOccupyingCells();
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	TArray<FIntPoint> GetNeighbouringCells();
+
 	UFUNCTION(BlueprintCallable)
 	void AddToGrid();
 
@@ -25,7 +28,7 @@ public:
 	void RemoveFromGrid();
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles);
+	bool CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles, TArray<FIntPoint>& ValidNeighbourTiles);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UGridObjectData* GridObjectData;

@@ -3,15 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "PlacementRule.h"
-#include "UObject/Object.h"
-#include "PlaceableObjectData.generated.h"
+#include "GGJ2023/PlacementRules/PlacementRuleConfig.h"
+#include "GridObjectData.generated.h"
 
 /**
  * 
  */
 UCLASS(BlueprintType, Blueprintable)
-class GGJ2023_API UPlaceableObjectData : public UDataAsset
+class GGJ2023_API UGridObjectData : public UDataAsset
 {
 	GENERATED_BODY()
 
@@ -30,4 +29,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FText RuleText;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TArray<TSubclassOf<UPlacementRuleConfig>> PlacementRules;
 };

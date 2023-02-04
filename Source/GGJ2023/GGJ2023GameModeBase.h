@@ -16,6 +16,5 @@ class GGJ2023_API AGGJ2023GameModeBase : public AGameModeBase
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable, BlueprintPure)
-	static AGrid* GetGridInstance(UObject* WorldContext);
+
 };

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
+#include "GGJ2023/Data/GridObjectData.h"
 #include "GridObject.generated.h"
 
 /**
@@ -24,6 +24,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void RemoveFromGrid();
 
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool CanBePlaced(TArray<FIntPoint>& ValidTiles, TArray<FIntPoint>& InvalidTiles);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UGridObjectData* GridObjectData;
 
 protected:
 	virtual void BeginPlay() override;

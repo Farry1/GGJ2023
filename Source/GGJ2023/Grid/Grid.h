@@ -3,16 +3,26 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GridCell.h"
-#include "GridObject.h"
-#include "UObject/Object.h"
 #include "Grid.generated.h"
-
+class AGridObject;
 /**
  * 
  */
 
 const float GLOBAL_GRID_SCALE = 50.0f;
+
+USTRUCT(BlueprintType)
+struct GGJ2023_API FGridCell
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+	FIntPoint Position;
+
+	UPROPERTY()
+	TArray<AGridObject*> GridObjects;
+};
 
 UCLASS(BlueprintType, Blueprintable)
 class GGJ2023_API AGrid : public AActor

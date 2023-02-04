@@ -3,6 +3,8 @@
 
 #include "Grid.h"
 
+#include "GridObject.h"
+
 FIntPoint AGrid::GetGridPosition_Implementation(FVector WorldPosition)
 {
 	FVector SnappedPosition = {

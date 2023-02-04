@@ -39,6 +39,12 @@ public:
 	FText RuleText;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int BaseScore = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int StackSize = 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TEnumAsByte<EGridObjectGroup>> MyGridObjectGroups;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

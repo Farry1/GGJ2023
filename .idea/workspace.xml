@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ab7505-516d-41dc-bce0-18603dd6b1f3" name="Changes" comment="" />
+    <list default="true" id="a2ab7505-516d-41dc-bce0-18603dd6b1f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Gameplay_Helena.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Gameplay_Helena.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675497999797</updated>
       <workItem from="1675498002905" duration="2000" />
+      <workItem from="1675606632868" duration="3000" />
     </task>
     <servers />
   </component>

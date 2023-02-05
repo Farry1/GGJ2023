@@ -27,10 +27,16 @@ public:
 	FText DisplayName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UTexture2D* DisplayIcon;
+	UTexture2D* ShapeRuleIcon;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UTexture2D* RootTypeIcon;
+	UTexture2D* TreeTypeIcon1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UTexture2D* TreeTypeIcon2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UTexture2D* TreeTypeIcon3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<AActor> BuildableClass;

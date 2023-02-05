@@ -23,6 +23,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int32 PointsNeeded;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 NumberOfPossibleCards = 3;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UGridObjectData*> GuaranteedCards;
 

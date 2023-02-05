@@ -39,6 +39,9 @@ public:
 	UTexture2D* TreeTypeIcon3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UTexture2D* AdditionalRuleIcon;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<AActor> BuildableClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

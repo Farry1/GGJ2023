@@ -1,38 +1,38 @@
-D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp
+C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp
 /I .
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Private
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Private
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RiderLink\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src
-/I D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include
-/I ThirdParty\mimalloc\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Definitions.h"
-/Fo"D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.obj"
-/sourceDependencies D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.json
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src
+/I C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include
+/external:W0
+/external:I ThirdParty\mimalloc\include
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Definitions.h"
+/Fo"C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.obj"
+/sourceDependencies C:\GGJ2023\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
@@ -49,6 +49,7 @@ D:\Projekte\Unreal\GGJ2023\Plugins\Developer\RiderLink\Intermediate\Build\Win64\
 /source-charset:utf-8
 /execution-charset:utf-8
 /Ob2
+/fastfail
 /Ox
 /Ot
 /GF
